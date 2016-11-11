@@ -21,7 +21,7 @@ return [
             "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css"],
+            "stylesheets" => ["css/default.min.css", "css/bsstyle.css"],
             "styleInline" => null,
 
             // JavaScript
@@ -84,7 +84,7 @@ return [
                         "contentRoute" => "block/footer-col-1",
                     ],
                     [
-                        "contentRoute" => "block/footer-col-2",
+                        "contentRoute" => "block/byline",
                     ],
                     [
                         "contentRoute" => "block/footer-col-3",

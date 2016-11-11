@@ -2,4 +2,4 @@
 titleBreadcrumb: Reports
 ...
 Index
-===============================
+-----------

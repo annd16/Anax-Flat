@@ -1,4 +1,4 @@
 Introduction
 ===============================
 
-Here are my reports for the different kmoms.
+Here are my reports (in Swedish) for the different kmoms.

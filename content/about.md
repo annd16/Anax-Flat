@@ -1,11 +1,28 @@
+---
+views:
+    byline:
+        region: after-main
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
+...
+
+
+
+
 About this site
-==============================================
+---------------
 
 The aim of this site is:  
 
 * To be used in the [dbwebb course design](http://dbwebb.se/design) to learn different techniques/languages used when building/designing websites.  
 
-The following list will be updated as the "tool-kit" is expanded.  
+The following list will be updated as the "tool-box" is expanded.  
+
+![Picture of toolbox](cimage/imgd.php?src=tool-box-300px.png&w=60)
 
 ####Techniques/tools used:  
 

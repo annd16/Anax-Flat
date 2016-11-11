@@ -8,10 +8,48 @@ views:
             meta:
                 type: content
                 route: block/byline
+
+    breadcrumb:
+        region: breadcrumb
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
+
+    sidebar-l:
+        region: sidebar-left
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
+
+    sidebar-r:
+        region: sidebar-right
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
+
+        flash:
+        region: flash
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
+
 ...
 
 
-This is a test page
+A test page
 -------------------
 
-The aim of this page was to learn how to create a new page on the website, and include it in the navbar.  
+This page can be used for different tests, like getting acquainted with the anax-flat frame work    
+and the markdown language. At present it shows some of the existing regions on the web-page.

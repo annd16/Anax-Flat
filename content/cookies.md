@@ -1,4 +1,4 @@
 About cookies
 ==============================================
 
-What about cookies?
+At present this web-site doesn't use cookies.
