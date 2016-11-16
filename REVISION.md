@@ -10,3 +10,7 @@ Revision history
 ###v1.1.0 (2016-11-11)
 
 * Third commit: Publishing kmom01.
+
+###v2.0.0 (2016-11-16)
+
+* 4th commit: First draft kmom02, basic theme-structure

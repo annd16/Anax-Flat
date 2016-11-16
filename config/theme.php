@@ -21,11 +21,13 @@ return [
             "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css", "css/bsstyle.css"],
+            //"stylesheets" => ["css/default.min.css", "css/bsstyle.css"],
+            "stylesheets" => ["css/style.min.css", "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"],  //Tillagt 15/11-16
             "styleInline" => null,
 
             // JavaScript
-            "javascripts" => [],
+            //"javascripts" => [],
+            "javascripts" => ["js/responsive-menu.js"],  //Inlagt 15/11-16
         ],
     ],
 
@@ -60,14 +62,14 @@ return [
             ],
             "sort" => 2
         ],
-/*
+
         [
             "region" => "profile",
-            "template" => "default/navbar-max",
+            "template" => "default/navbar-max",     // Den responsiva nav-baren
             "data" => [],
             "sort" => -1
         ],
-*/
+
         [
             "region" => "navbar2",
             "template" => "default/navbar",
@@ -84,7 +86,8 @@ return [
                         "contentRoute" => "block/footer-col-1",
                     ],
                     [
-                        "contentRoute" => "block/byline",
+                        //"contentRoute" => "block/byline",
+                        "contentRoute" => "block/footer-col-2",
                     ],
                     [
                         "contentRoute" => "block/footer-col-3",
