@@ -76,6 +76,15 @@ return [
             "data" => [],
             "sort" => 1
         ],
+
+// Inlagt av aa 16/11-16 som test
+        //[
+        //    "region" => "article",
+        //    "template" => "default/article",
+        //    "data" => [],
+        //    "sort" => 1
+        //],
+
         [
             "region" => "footer",
             "template" => "default/columns",
@@ -83,14 +92,16 @@ return [
                 "class"  => "footer-column",
                 "columns" => [
                     [
+                        //"contentRoute" => "block/empty",
+                        //"contentRoute" => "block/footer-col-1"
+                    ],
+                    [
                         "contentRoute" => "block/footer-col-1",
+                        //"contentRoute" => "block/footer-col-2",
                     ],
                     [
-                        //"contentRoute" => "block/byline",
-                        "contentRoute" => "block/footer-col-2",
-                    ],
-                    [
-                        "contentRoute" => "block/footer-col-3",
+                        //"contentRoute" => "block/empty",
+                        //"contentRoute" => "block/footer-col-3",
                     ]
                 ]
             ],

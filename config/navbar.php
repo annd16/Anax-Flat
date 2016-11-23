@@ -55,6 +55,13 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "me" => [
+                "text"  => t("Me"),
+                "url"   => $this->di->get("url")->create("me"),
+                "title" => t("About me"),
+                "mark-if-parent" => true,
+            ],
+
             "report" => [
                 "text"  => t("Report"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -66,6 +73,12 @@ return [
                 "text"  => t("About"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
+            ],
+
+            "test" => [
+                "text"  => t("Test"),
+                "url"   => $this->di->get("url")->create("test"),
+                "title" => t("This is a testpage")
             ],
         ],
     ],

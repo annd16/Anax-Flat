@@ -1,16 +1,7 @@
 ---
-views:
-    byline:
-        region: after-main
-        template: default/content
-        sort: 1
-        data:
-            meta:
-                type: content
-                route: block/byline
+titleBreadCrumb: About
+
 ...
-
-
 
 
 About this site
@@ -22,7 +13,9 @@ The aim of this site is:
 
 The following list will be updated as the "tool-box" is expanded.  
 
-![Picture of toolbox](cimage/imgd.php?src=tool-box-300px.png&w=60)
+<!--![Picture of toolbox](cimage/imgd.php?src=tool-box-300px.png&w=60)-->
+
+[FIGURE src="cimage/imgd.php?src=tool-box-300px.png&w=60&cf" class="about-image"]
 
 ####Techniques/tools used:  
 
@@ -36,3 +29,6 @@ The following list will be updated as the "tool-box" is expanded.
 
 
 The source for this site is available on GitHub in [annd16/anax-flat](https://github.com/annd16/anax-flat).  
+
+
+<!--[FIGURE src="image/dbwebbisar.jpg?w=200&h=150&a=0,20,20,50&cf" class="right"]-->

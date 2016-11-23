@@ -1,13 +1,15 @@
 ---
 titleBreadcrumb: Me
 ...
-About me
---------
 
 <!--![Picture of Anna](img/me-edit1.jpg)-->
+<!--![Picture of Anna](cimage/imgd.php?src=me-edit1.jpg&w=200)-->
 
-![Picture of Anna](cimage/imgd.php?src=me-edit1.jpg&w=200)
 
+<img src="img/me-edit3.jpg" alt="Picture of Anna" class="me-image" style="width: 250px">
+
+About me
+--------
 
 This is my me-webpage in the dbwebb course *design*, and this page gives a very brief presentation of me.
 

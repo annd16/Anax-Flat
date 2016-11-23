@@ -1,55 +1,23 @@
 ---
-views:
-    byline:
-        region: after-main
-        template: default/content
-        sort: 1
-        data:
-            meta:
-                type: content
-                route: block/byline
-
-    breadcrumb:
-        region: breadcrumb
-        template: default/content
-        sort: 1
-        data:
-            meta:
-                type: content
-                route: block/byline
-
-    sidebar-l:
-        region: sidebar-left
-        template: default/content
-        sort: 1
-        data:
-            meta:
-                type: content
-                route: block/byline
-
-    sidebar-r:
-        region: sidebar-right
-        template: default/content
-        sort: 1
-        data:
-            meta:
-                type: content
-                route: block/byline
-
-        flash:
-        region: flash
-        template: default/content
-        sort: 1
-        data:
-            meta:
-                type: content
-                route: block/byline
-
+titleBreadcrumb: Test
 ...
 
 
-A test page
--------------------
 
-This page can be used for different tests, like getting acquainted with the anax-flat frame work    
-and the markdown language. At present it shows some of the existing regions on the web-page.
+A test page    
+-----------
+
+<p> This page can be used for different tests, like getting acquainted with the anax-flat frame work
+the markdown language, CSS and LESS. At present it shows some simple features of LESS language. </p>
+
+<div> I den här diven kommer det att hända grejer... </div>
+
+
+<h3>Introduction</h3>
+<h3>Body</h3>
+<h3>Conclusion</h3>
+
+<col class="column-1">Column</col>
+<col class="column-2">Column</col>
+<col class="column-3">Column</col>
+<col class="column-4">Column</col>      

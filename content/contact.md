@@ -1,4 +1,9 @@
 Contact
-==============================================
+-------
 
-Any questions about the anax-flat frame work can be emailed to [Mikael Roos](https://mikaelroos.se) on (mos@dbwebb.se).
+Any questions about this site can be emailed to <mailto:annd16@student.bth.se>.
+
+
+<!--<mailto:user@example.com>
+<user@example.com>
+<a href="mailto:user@example.com">user@example.com</a>-->
