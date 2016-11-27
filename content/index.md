@@ -17,7 +17,7 @@ A website using Anax Flat
 
 Welcome!
 
-This is a website created using Anax Flat as a base. This is the base website to be used in the dbwebb course *design*.
+This is a website created using Anax Flat as a base. This is the base website to be used in the dbwebb course [design](https://dbwebb.se/kurser/design).
 
 Feel free to look around!
 

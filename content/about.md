@@ -7,15 +7,13 @@ titleBreadCrumb: About
 About this site
 ---------------
 
-The aim of this site is:  
-
-* To be used in the [dbwebb course design](http://dbwebb.se/design) to learn different techniques/languages used when building/designing websites.  
+The aim of this site is to be used in the dbwebb course [ design](http://dbwebb.se/design) to learn different techniques/languages used when building/designing websites.  
 
 The following list will be updated as the "tool-box" is expanded.  
 
 <!--![Picture of toolbox](cimage/imgd.php?src=tool-box-300px.png&w=60)-->
 
-[FIGURE src="cimage/imgd.php?src=tool-box-300px.png&w=60&cf" class="about-image"]
+[FIGURE src="cimage/imgd.php?src=tool-box-300px.png&w=80&cf" class="about-image"]
 
 ####Techniques/tools used:  
 
@@ -28,7 +26,7 @@ The following list will be updated as the "tool-box" is expanded.
 
 
 
-The source for this site is available on GitHub in [annd16/anax-flat](https://github.com/annd16/anax-flat).  
+The source for this site is available on GitHub in [anax-flat/theme](https://github.com/annd16/anax-flat-theme).  
 
 
 <!--[FIGURE src="image/dbwebbisar.jpg?w=200&h=150&a=0,20,20,50&cf" class="right"]-->

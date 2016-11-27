@@ -15,7 +15,10 @@ Revision history
 
 * 4th commit: First draft kmom02, basic theme-structure
 
-
 ###v2.0.1 (2016-11-24)
 
 * 5th commit: Second draft kmom02, responsivity not yet fully implemented.
+
+###v2.0.2 (2016-11-27)
+
+* 6th commit: Publishing kmom02.

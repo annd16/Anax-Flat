@@ -93,15 +93,15 @@ return [
                 "columns" => [
                     [
                         //"contentRoute" => "block/empty",
-                        //"contentRoute" => "block/footer-col-1"
+                        "contentRoute" => "block/footer-col-1"
                     ],
                     [
-                        "contentRoute" => "block/footer-col-1",
+                        "contentRoute" => "block/footer-col-2",
                         //"contentRoute" => "block/footer-col-2",
                     ],
                     [
                         //"contentRoute" => "block/empty",
-                        //"contentRoute" => "block/footer-col-3",
+                        "contentRoute" => "block/footer-col-3",
                     ]
                 ]
             ],
