@@ -1,4 +1,4 @@
 Introduction
 ------------
 
-Here are my reports (in Swedish) for the different kmoms.
+This page will contain the results from analyses made in kmoms to come.

@@ -11,6 +11,6 @@ return [
     //"staticSiteUrl" => null,
     //"staticBaseUrl" => null,
     //"scriptName"    => null,
-    //"urlType"       => self::URL_CLEAN,
+    //"urlType"       => self::URL_CLEAN,      Kommentera bort detta för att få snygga länkar i kmom05
 
 ];

@@ -1,4 +1,17 @@
 ---
+views:
+
+    byline:
+        region: after-main
+        template: default/byline
+        sort: 1
+        data:
+            author: "Anna"
+            meta:
+                type: author
+
+author: Anna
+
 titleBreadcrumb: Test
 ...
 
@@ -7,8 +20,43 @@ titleBreadcrumb: Test
 A test page    
 -----------
 
-<p> This page can be used for different tests, like getting acquainted with the anax-flat frame work
-the markdown language, CSS and LESS. At present it shows some simple features of the LESS language. </p>
+<p> This page can be used for different tests, like getting acquainted with the anax-flat frame work, the grid-system,
+the markdown language, CSS and LESS. At present it shows some use of nested columns/rows in the grid-system and some simple features of the LESS language. </p>
+
+<div class="wrap">
+    <h3>Nested columns</h3>
+
+    <div class="row">
+        <div class="col"><span>column</span></div>
+        <div class="col"><span>column</span></div>
+        <div class="col"><span>column</span></div>
+        <div class="col-nested">
+            <div class="row-nested">
+                <div class="block"><span>nested block1</span></div>
+                <div class="block"><span>nested block2</span></div>
+                <div class="block"><span>nested block3</span></div>
+                <div class="block"><span>nested block4</span></div>
+            </div>
+        </div>
+        <div class="col"><span>column</span></div>
+    </div>
+</div>
+
+<div class="wrap">
+    <h3>Nested columns</h3>
+
+    <div class="row2">
+    <div class="col2"><span>column</span></div>
+    <div class="col2"><span>column</span></div>
+    <div class="col2"><span>column</span></div>
+    <div class="col2"><span>column</span></div>
+    <div class="col2-nested">
+            <div class="row2-nested">
+                <div class="block2"><span>article</span></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 ###Mixins
 <div class="div1"> div1 with a background-color of grey. </div>

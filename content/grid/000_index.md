@@ -1,5 +1,5 @@
 ---
-titleBreadcrumb: Analysis
+titleBreadcrumb: Grid
 ...
 Index
 -----------

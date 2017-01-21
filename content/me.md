@@ -5,7 +5,7 @@ titleBreadcrumb: Me
 <!--![Picture of Anna](img/me-edit1.jpg)-->
 <!--![Picture of Anna](cimage/imgd.php?src=me-edit1.jpg&w=200)-->
 
-
+<!-- Originalstorleken på bilden: 238x300px -->  
 <img src="img/me-edit3.jpg" alt="Picture of Anna" class="me-image">
 
 About me
