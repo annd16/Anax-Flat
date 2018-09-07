@@ -9,20 +9,23 @@
     "packages": [
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.8.0",
+            "version": "v4.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2"
+                "reference": "d85d39da4576a6934b72480be6978fb10c860021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d85d39da4576a6934b72480be6978fb10c860021",
+                "reference": "d85d39da4576a6934b72480be6978fb10c860021",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "^1.1"
             },
             "type": "library",
             "autoload": {
@@ -49,7 +52,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2016-07-16 12:58:58"
+            "time": "2018-02-23 01:58:20"
         },
         {
             "name": "michelf/php-markdown",
@@ -159,16 +162,16 @@
         },
         {
             "name": "mos/anax",
-            "version": "v2.5.24",
+            "version": "v2.5.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/anax.git",
-                "reference": "8f8621e77df0edacc9987591f02cbf8e7d64a74a"
+                "reference": "db573fa96922f866cc10632e84235894fc68ad89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/anax/zipball/8f8621e77df0edacc9987591f02cbf8e7d64a74a",
-                "reference": "8f8621e77df0edacc9987591f02cbf8e7d64a74a",
+                "url": "https://api.github.com/repos/mosbth/anax/zipball/db573fa96922f866cc10632e84235894fc68ad89",
+                "reference": "db573fa96922f866cc10632e84235894fc68ad89",
                 "shasum": ""
             },
             "require": {
@@ -209,26 +212,27 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2016-11-28 14:00:37"
+            "time": "2017-12-04 10:35:44"
         },
         {
             "name": "mos/anax-flat",
-            "version": "v1.0.31",
+            "version": "v1.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/anax-flat.git",
-                "reference": "f93064b60a9fbed73c7e6c42fec3cead88af85c2"
+                "reference": "74a2fd261fd58389a7ceb9ed06482eb83d5762b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/anax-flat/zipball/f93064b60a9fbed73c7e6c42fec3cead88af85c2",
-                "reference": "f93064b60a9fbed73c7e6c42fec3cead88af85c2",
+                "url": "https://api.github.com/repos/canax/anax-flat/zipball/74a2fd261fd58389a7ceb9ed06482eb83d5762b6",
+                "reference": "74a2fd261fd58389a7ceb9ed06482eb83d5762b6",
                 "shasum": ""
             },
             "require": {
                 "mos/anax": "^2.5",
                 "mos/cimage": "^0.7",
                 "mos/ctextfilter": "^1.2",
+                "php": ">=5.6",
                 "symfony/yaml": "^3.1"
             },
             "suggest": {
@@ -236,11 +240,6 @@
                 "mustangostang/spyc": "^0.6"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -264,20 +263,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2016-12-05 17:03:47"
+            "time": "2017-11-28 16:18:49"
         },
         {
             "name": "mos/cimage",
-            "version": "v0.7.18",
+            "version": "v0.7.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/cimage.git",
-                "reference": "8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e"
+                "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/cimage/zipball/8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e",
-                "reference": "8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e",
+                "url": "https://api.github.com/repos/mosbth/cimage/zipball/cd142c58806c8edb6164a12a20e120eb7f436dfb",
+                "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb",
                 "shasum": ""
             },
             "require": {
@@ -285,7 +284,9 @@
                 "php": ">=5.3"
             },
             "suggest": {
-                "ext-exif": "*"
+                "ext-curl": "*",
+                "ext-exif": "*",
+                "ext-imagick": "*"
             },
             "type": "library",
             "autoload": {
@@ -322,20 +323,20 @@
                 "image",
                 "imageprocessing"
             ],
-            "time": "2016-08-09 11:27:46"
+            "time": "2017-11-06 09:24:47"
         },
         {
             "name": "mos/ctextfilter",
-            "version": "v1.2.19",
+            "version": "v1.2.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/ctextfilter.git",
-                "reference": "39af7891a10eed403ab503572b9d464d1a182fae"
+                "reference": "724d17d50dba68c0c39542c974d46ee6be066261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/ctextfilter/zipball/39af7891a10eed403ab503572b9d464d1a182fae",
-                "reference": "39af7891a10eed403ab503572b9d464d1a182fae",
+                "url": "https://api.github.com/repos/mosbth/ctextfilter/zipball/724d17d50dba68c0c39542c974d46ee6be066261",
+                "reference": "724d17d50dba68c0c39542c974d46ee6be066261",
                 "shasum": ""
             },
             "require": {
@@ -385,21 +386,25 @@
                 "markdown",
                 "shortcode"
             ],
-            "time": "2016-11-28 14:53:40"
+            "time": "2018-06-26 11:27:49"
         },
         {
             "name": "scrivo/highlight.php",
-            "version": "v9.0.0",
+            "version": "v9.12.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrivo/highlight.php.git",
-                "reference": "a905bf346a47f5fa40f33641b346c37f418d1242"
+                "reference": "0db45267df6b3bbae224ff86445d6407629e8b96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/a905bf346a47f5fa40f33641b346c37f418d1242",
-                "reference": "a905bf346a47f5fa40f33641b346c37f418d1242",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/0db45267df6b3bbae224ff86445d6407629e8b96",
+                "reference": "0db45267df6b3bbae224ff86445d6407629e8b96",
                 "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "symfony/finder": "^2.8"
             },
             "type": "library",
             "autoload": {
@@ -411,7 +416,24 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "Server side syntax highlighter that supports over 90 languages. It's a PHP port of highlight.js",
+            "authors": [
+                {
+                    "name": "Geert Bergman",
+                    "homepage": "http://www.scrivo.org/",
+                    "role": "Project Author"
+                },
+                {
+                    "name": "Vladimir Jimenez",
+                    "homepage": "https://allejo.io",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Martin Folkers",
+                    "homepage": "https://twobrain.io",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "Server side syntax highlighter that supports 176 languages. It's a PHP port of highlight.js",
             "keywords": [
                 "code",
                 "highlight",
@@ -419,27 +441,89 @@
                 "highlight.php",
                 "syntax"
             ],
-            "time": "2016-01-01 14:08:00"
+            "time": "2018-08-24 15:45:27"
         },
         {
-            "name": "symfony/yaml",
-            "version": "v3.2.1",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "a7095af4b97a0955f85c8989106c249fa649011f"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a7095af4b97a0955f85c8989106c249fa649011f",
-                "reference": "a7095af4b97a0955f85c8989106c249fa649011f",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-08-06 14:22:27"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v3.4.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "c2f4812ead9f847cb69e90917ca7502e6892d6b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c2f4812ead9f847cb69e90917ca7502e6892d6b8",
+                "reference": "c2f4812ead9f847cb69e90917ca7502e6892d6b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
             },
             "require-dev": {
-                "symfony/console": "~2.8|~3.0"
+                "symfony/console": "~3.4|~4.0"
             },
             "suggest": {
                 "symfony/console": "For validating YAML files using the lint command"
@@ -447,7 +531,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -474,7 +558,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-10 10:07:06"
+            "time": "2018-08-10 07:34:36"
         }
     ],
     "packages-dev": [],
