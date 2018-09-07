@@ -44,7 +44,7 @@ return [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("A testpage for a vertical grid"),
-                "mark-if-parent" => true, 
+                "mark-if-parent" => true,
             ],
 
             "typography" => [
@@ -58,6 +58,12 @@ return [
                 "url"   => $this->di->get("url")->create("analysis"),
                 "title" => t("A page for analyses"),
                 "mark-if-parent" => true,
+            ],
+
+            "theme-selector" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("A page for selecting a theme"),
             ],
         ],
     ],
@@ -79,7 +85,7 @@ return [
                 "text"  => t("Me"),
                 "url"   => $this->di->get("url")->create("me"),
                 "title" => t("About me"),
-                "mark-if-parent" => true,
+                // "mark-if-parent" => true,
             ],
 
             "report" => [
@@ -104,13 +110,27 @@ return [
             "grid" => [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid"),
-                "title" => t("A testpage for a vertical grid")
+                "title" => t("A testpage for a vertical grid"),
+                "mark-if-parent" => true,
             ],
 
             "typography" => [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("A testpage for a typography grid")
+            ],
+            "analysis" => [
+                "text"  => t("Analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("A page for analyses"),
+                "mark-if-parent" => true,
+            ],
+
+            "theme-selector" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("A page for selecting a theme"),
+                "mark-if-parent" => true,
             ],
         ],
     ],

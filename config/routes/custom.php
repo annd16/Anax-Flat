@@ -25,6 +25,12 @@ if ($app->session->has("theme")) {
         $app->theme->appendToVariable("htmlClass", $theme["class"]);
     }
 
+    // Test 20171124, verkar ej avhjälpa felet!:
+    if (isset($theme["class"])) {
+        $app->theme->appendToVariable("flashImageClass", $theme["class"]);
+    }
+
+
     if (isset($theme["stylesheets"])) {
         // Remove all stylesheets before applying the new ones
         $app->theme->setConfigKey("stylesheets", []);

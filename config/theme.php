@@ -15,14 +15,17 @@ return [
             // General
             "htmlClass"     => ["anax-flat"],
             "bodyClass"     => [],
+            "flashImageClass" => ["flash-image"],
             "lang"          => "en",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
             "favicon"       => "img/favicon/favicon_256x256.png",
 
-            // Style and stylesheets
+            // Style and stylesheets that are used!!!
             //"stylesheets" => ["css/default.min.css", "css/bsstyle.css"],
-            "stylesheets" => ["css/style.min.css", "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"],  //Tillagt 15/11-16
+            // "stylesheets" => ["css/style.min.css", "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"],  //Tillagt 15/11-16
+            // "styleInline" => null,
+            "stylesheets" => ["css/ts_style.min.css", "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"],  //Tillagt 23/11-17
             "styleInline" => null,
 
             // JavaScript
@@ -37,16 +40,16 @@ return [
      * Add default views to always include.
      */
     "views" => [
-        [
-            "region" => "header",
-            "template" => "default/image",
-            "data" => [
-                "class" => "logo-1",
-                "src" => "img/favicon/favicon_128x128.png",
-                "alt" => "Logo",
-            ],
-            "sort" => 1
-        ],
+        // [
+        //     "region" => "header",
+        //     "template" => "default/image",
+        //     "data" => [
+        //         "class" => "logo-1",
+        //         "src" => "img/favicon/favicon_128x128.png",
+        //         "alt" => "Logo",
+        //     ],
+        //     "sort" => 1
+        // ],
         [
             "region" => "header",
             "template" => "default/header",
@@ -60,7 +63,8 @@ return [
                 "siteTitle"     => null, //"Anax PHP framework",
                 "siteSlogan"    => null, //"Reusable modules for web development"
             ],
-            "sort" => 2
+            // "sort" => 2
+            "sort" => 1
         ],
 
         [

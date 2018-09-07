@@ -2,21 +2,20 @@
 titleBreadcrumb: Grid
 
 views:
+    flash:
+        region: flash
+        template: default/image_aa
+        data:
+            flashImageClass: "flash-image"
+            src: "img/color-1792501_640-cropped1.jpg"
+            alt: "Pictures of tiles"
+
     breadcrumb:
         region: breadcrumb
         template: default/breadcrumb
         data:
             meta:
                 type: breadcrumb
-
-    flash:
-        region: flash
-        template: default/image
-        data:
-            class: "flash-image"
-            src: "img/color-1792501_640-cropped1.jpg"
-            alt: "Pictures of tiles"
-
 
     next-previous-above:
         region: main
