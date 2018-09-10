@@ -18,39 +18,36 @@ if ($GLOBALS['app']->session->has("theme")) {
     $theme = $GLOBALS['app']->session->get("theme");
     // echo("theme = ");
     // var_dump($theme);
-}
-else {
+} else {
     $theme["class"] = "default";
 }
 
 
-    if (isset($theme["class"])) {
-        // echo("\nflashImageClass in theme = ");
-        // var_dump($flashImageClass);
+if (isset($theme["class"])) {
+    // echo("\nflashImageClass in theme = ");
+    // var_dump($flashImageClass);
 
-        // Jag får inte appendToVariable() att fungera!
-        // $GLOBALS['app']->theme->appendToVariable("flashImageClass", $theme["class"]);
+    // Jag får inte appendToVariable() att fungera!
+    // $GLOBALS['app']->theme->appendToVariable("flashImageClass", $theme["class"]);
 
-        // echo("\nflashImageClass in theme = ");
-        // var_dump($flashImageClass);
-        $flashImageClass .=  " " . $theme["class"];
-        $GLOBALS['app']->theme->setVariable("flashImageClass", $flashImageClass);
-        $themeClassList = $GLOBALS['app']->theme->getVariable("flashImageClass");
-        // echo("<br/> " . "themeClassList = " . "<br/>");
-        // var_dump($themeClassList);
-        // echo("flashImageClass = ");
-        // var_dump($flashImageClass);
+    // echo("\nflashImageClass in theme = ");
+    // var_dump($flashImageClass);
+    $flashImageClass .=  " " . $theme["class"];
+    $GLOBALS['app']->theme->setVariable("flashImageClass", $flashImageClass);
+    $themeClassList = $GLOBALS['app']->theme->getVariable("flashImageClass");
+    // echo("<br/> " . "themeClassList = " . "<br/>");
+    // var_dump($themeClassList);
+    // echo("flashImageClass = ");
+    // var_dump($flashImageClass);
 
-        // array_unshift($themeClassList, $flashImageClass);
+    // array_unshift($themeClassList, $flashImageClass);
 
-        // var_dump($themeClassList);
+    // var_dump($themeClassList);
 
-        $flashImageClass = $themeClassList;
-
-    }
-    else {
-        $theme["class"] = "default";
-    }
+    $flashImageClass = $themeClassList;
+} else {
+    $theme["class"] = "default";
+}
 
 // echo("flashImageClass in theme = ");
 // $themeClassList = $GLOBALS['app']->theme->getVariable("flashImageClass");
@@ -78,16 +75,18 @@ if (isset($href)) {
     $hrefEnd = "</a>";
 }
 
-switch($theme['class']) {
+switch ($theme['class']) {
     case "base":
     case "base2":
     case "light":
         // echo("base/base2/light!");
         $src = "img/color-1792501_640-bw-cropped1.jpg";
+        break;
     case "dark":
     case "color":
     case "typography":
         $src = "img/color-1792501_640-cropped1.jpg";
+        break;
 }
 
 ?><?= $hrefStart ?>
